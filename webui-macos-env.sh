@@ -11,7 +11,7 @@ fi
 
 export install_dir="$HOME"
 export COMMANDLINE_ARGS="--skip-torch-cuda-test --opt-sub-quad-attention --upcast-sampling --no-half --lowvram --use-cpu
-interrogate"
+all"
 export TORCH_COMMAND="pip install torch==2.1.0 torchvision==0.16.0"
 export PYTORCH_ENABLE_MPS_FALLBACK=1
 
